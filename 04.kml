@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>04.kml</name>
+	<name>quanbia.kml</name>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -10,19 +10,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>C:/Users/Admin/Desktop/Untitled-2.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
@@ -34,22 +21,152 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Placemark>
-		<name>Ốc Tài Chính</name>
-		<LookAt>
-			<longitude>105.774581683514</longitude>
-			<latitude>21.07740383928801</latitude>
-			<altitude>0</altitude>
-			<heading>5.349409060327689</heading>
-			<tilt>28.92034543497616</tilt>
-			<range>160.9802823048164</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>105.7741538482704,21.07746020593597,0</coordinates>
-		</Point>
-	</Placemark>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>C:/Users/Admin/Desktop/Untitled-2.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Ốc Tài Chính</name>
+			<LookAt>
+				<longitude>105.774581683514</longitude>
+				<latitude>21.07740383928801</latitude>
+				<altitude>0</altitude>
+				<heading>5.349409060327689</heading>
+				<tilt>28.92034543497616</tilt>
+				<range>160.9802823048164</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7741538482704,21.07746020593597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reng Nướng</name>
+			<LookAt>
+				<longitude>105.7754640295869</longitude>
+				<latitude>21.07755756102535</latitude>
+				<altitude>0</altitude>
+				<heading>5.348371096894991</heading>
+				<tilt>23.92513491556861</tilt>
+				<range>320.993607006339</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7751127029233,21.07767802138567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nướng Bắc Cạn</name>
+			<LookAt>
+				<longitude>105.7752997018204</longitude>
+				<latitude>21.07738593135208</latitude>
+				<altitude>0</altitude>
+				<heading>5.347620512773283</heading>
+				<tilt>21.74170615520908</tilt>
+				<range>177.6044450256993</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7754006041747,21.07754375741838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fin BBQ - Buffet nướng</name>
+			<LookAt>
+				<longitude>105.7755081245312</longitude>
+				<latitude>21.07679692151924</latitude>
+				<altitude>0</altitude>
+				<heading>5.347695177299194</heading>
+				<tilt>21.74284185047516</tilt>
+				<range>381.3415064078151</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7745722809452,21.07755441965929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tom Kitchen</name>
+			<LookAt>
+				<longitude>105.7744144249207</longitude>
+				<latitude>21.07646376135261</latitude>
+				<altitude>0</altitude>
+				<heading>5.34631601544097</heading>
+				<tilt>19.44225919487457</tilt>
+				<range>385.9709856524739</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7734889594335,21.07705040674275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buffet Garden</name>
+			<LookAt>
+				<longitude>105.7756069501444</longitude>
+				<latitude>21.07757322827071</latitude>
+				<altitude>0</altitude>
+				<heading>5.348479634846402</heading>
+				<tilt>24.24483882952079</tilt>
+				<range>216.2536393744429</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7755503576163,21.07777279199378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nướng Sơn Béo</name>
+			<LookAt>
+				<longitude>105.7756882943699</longitude>
+				<latitude>21.07770269752679</latitude>
+				<altitude>0</altitude>
+				<heading>5.348427256122203</heading>
+				<tilt>23.90572764054923</tilt>
+				<range>329.8157918791062</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7756727504695,21.07813973800513,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
 </Document>
 </kml>
